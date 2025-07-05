@@ -1,19 +1,15 @@
 # Simulación de flujo CI/CD para un modelo de clasificación binaria
 
-- Es una demostracion sencilla de un flujo aplicado a un modelo de clasificación usando `RandomForestClassifier` con el dataset Iris de `scikit-learn`, tiene una estructura tal que asi...:
+Es una demostracion sencilla de un flujo aplicado a un modelo de clasificación usando `RandomForestClassifier` con el dataset Iris de `scikit-learn`, tiene una estructura tal que asi...:
 
-ml-ci-cd-simulado/
-├── data/
-│   └── dataset.csv
-├── model/
-│   └── train.py
-├── tests/
-│   └── test_metrics.py
-├── buildspec.yml
-├── requirements.txt
-└── README.md
+`data/dataset.csv  
+model/train.py  
+tests/test_metrics.py  
+buildspec.yml  
+requirements.txt  
+README.md`
 
-## etapas del proyecto
+## Etapas del proyecto
 
 1. **Entrenamiento del Modelo (`train_model.py`)**  
    Entrena un modelo de clasificación con datos del Iris Dataset y lo guarda en un archivo `.pkl` usando `joblib`.
@@ -29,5 +25,8 @@ ml-ci-cd-simulado/
 
 ## Conclusion
 
-- Al realizar el proyecto entendi mejor el tema principal (CI/CD), tambien profundize en el ciclo de vida de ML 
+- Al desarrollar este proyecto, comprendí de forma más práctica cómo funciona el flujo CI/CD y su importancia para mantener la calidad y consistencia en los proyectos. Además, profundicé en el ciclo de vida de los modelos de machine learning, desde el entrenamiento y evaluación hasta su validación automatizada. Esta experiencia me ayudó a conectar conceptos teóricos con su aplicación real en procesos de integración y entrega continua.
+<br />
 
+> [!NOTE]
+> Este contenido ha sido desarrollado con fines educativos como parte de una actividad estudiantil.
